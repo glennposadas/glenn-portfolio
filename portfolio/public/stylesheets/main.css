@@ -1,0 +1,53 @@
+html {
+  background-color: black;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/glenn-portrait%20(5).jpg?alt=media&token=cf1f6791-0377-4828-906d-8c5ff922a831');
+  min-height: 100%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+
+  line-height: 1.6em;
+  margin: 0;
+}
+
+header {
+  overflow: auto;
+  position: absolute;
+  top: 20%; left: 5%; bottom: 0; right: 0;
+  max-width: 45%;
+}
+
+header h1 {
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  text-shadow: 1px 1px gray;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  header h1 {
+    font-size: 100px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 48px;
+  }
+
+  header {
+    top: 25%; left: 5%; bottom: 0; right: 0;
+  }
+}
