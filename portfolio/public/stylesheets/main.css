@@ -23,7 +23,7 @@ header {
   overflow: auto;
   position: absolute;
   top: 20%; left: 5%; bottom: 0; right: 0;
-  max-width: 45%;
+  max-width: 48%;
 
   text-align: left;
   color: white;
@@ -38,6 +38,7 @@ header h1 {
 
 header p {
   font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
@@ -58,7 +59,7 @@ header p {
   }
 
   header p {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   header {
