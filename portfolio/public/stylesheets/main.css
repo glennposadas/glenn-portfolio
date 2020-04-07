@@ -19,7 +19,7 @@ body {
   background-color: black;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-
+  position: fixed;
   line-height: 1.6em;
   margin: 0;
 }
@@ -30,7 +30,7 @@ body {
 
 header {
   overflow: auto;
-  position: absolute;
+  position: fixed;
   top: 20%; left: 5%; bottom: 0; right: 0;
   max-width: 48%;
 
@@ -38,12 +38,15 @@ header {
   color: white;
   background-color: transparent;
   text-shadow: 1px 1px gray;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 700px in height or less*/
 @media screen and (max-height: 700px) {
   header {
-    top: 23%; left: 5%; bottom: 0; right: 0;
+    top: 22%; left: 5%; bottom: 0; right: 0;
   }
 }
 
@@ -57,7 +60,7 @@ header .my-title {
   white-space: nowrap;
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* If the screen size is 601px wide or more*/
 @media screen and (min-width: 743px) {
   header h1 {
     font-size: 100px;
@@ -68,8 +71,23 @@ header .my-title {
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 742px wide or less*/
 @media screen and (max-width: 742px) {
+  header h1 p {
+    font-size: 48px;
+  }
+
+  header .my-title {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 400px wide or less*/
+@media screen and (max-width: 400px) {
+  header {
+    max-width: 60%;
+  }
+
   header h1 p {
     font-size: 48px;
   }
@@ -94,14 +112,14 @@ header .my-title {
 }
 
 .button-p-title {
-  padding-left: 8px;
+  padding-left: 5px;
   margin-bottom: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
 }
 
 .button-link-title {
-  padding-left: 10px;
+  padding-left: 5px;
   padding-bottom: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
