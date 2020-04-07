@@ -19,7 +19,6 @@ body {
   background-color: black;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-  position: fixed;
   line-height: 1.6em;
   margin: 0;
 }
@@ -30,7 +29,7 @@ body {
 
 header {
   overflow: auto;
-  position: fixed;
+  position: absolute;
   top: 20%; left: 5%; bottom: 0; right: 0;
   max-width: 48%;
 
