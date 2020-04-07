@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background-color: black;
   background-image: url('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/glenn-portrait%20(5).jpg?alt=media&token=cf1f6791-0377-4828-906d-8c5ff922a831');
@@ -19,6 +24,10 @@ body {
   margin: 0;
 }
 
+/**
+  Header section
+*/
+
 header {
   overflow: auto;
   position: absolute;
@@ -36,7 +45,7 @@ header h1 {
   text-transform: uppercase;
 }
 
-header p {
+header .my-title {
   font-family: 'Montserrat', sans-serif;
   white-space: nowrap;
 }
@@ -47,7 +56,7 @@ header p {
     font-size: 100px;
   }
 
-  header p {
+  header .my-title {
     font-size: 60px;
   }
 }
@@ -58,11 +67,46 @@ header p {
     font-size: 48px;
   }
 
-  header p {
+  header .my-title {
     font-size: 25px;
   }
 
   header {
     top: 25%; left: 5%; bottom: 0; right: 0;
   }
+}
+
+/**
+  Platform buttons
+*/
+
+.buttons-container {
+  background-color: transparent;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.button-p-title {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.button-link-title {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.button-link-title:visited, .button-link-title:link {
+  color: white;
+}
+
+.buttons-container .row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 7%;
 }
