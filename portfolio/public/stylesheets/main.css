@@ -82,6 +82,7 @@ header .my-title {
 
 .buttons-container {
   background-color: transparent;
+  padding-left: 7%;
 }
 
 .social-icon {
@@ -108,5 +109,9 @@ header .my-title {
 .buttons-container .row {
   display: flex;
   flex-direction: row;
-  padding-left: 7%;
+}
+
+#download-resume-button {
+  margin-left: -10px;
+  margin-top: 20px;
 }
