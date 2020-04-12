@@ -349,7 +349,12 @@ p{
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section1{
+		background-color: black;
 		background-image: url('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/glenn-portrait%20(5).jpg?alt=media&token=cf1f6791-0377-4828-906d-8c5ff922a831');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
 	}
 	#section2{
 		background-image: url('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/glenn-beach.jpg?alt=media&token=c55e38db-b0d6-4b5d-9145-28f42f36080e');
@@ -362,8 +367,6 @@ p{
 	#section3 h1{
 		color: #000;
 	}
-
-
 
 	#section1 h1{
 		position: absolute;
