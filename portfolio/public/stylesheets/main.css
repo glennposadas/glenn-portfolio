@@ -30,7 +30,7 @@ body {
 header {
   overflow: auto;
   position: absolute;
-  top: 20%; left: 5%; bottom: 0; right: 0;
+  top: 18%; left: 5%; bottom: 0; right: 0;
   max-width: 48%;
 
   text-align: left;
@@ -45,7 +45,7 @@ header {
 /* If the screen size is 700px in height or less*/
 @media screen and (max-height: 700px) {
   header {
-    top: 22%; left: 5%; bottom: 0; right: 0;
+    top: 20%; left: 5%; bottom: 0; right: 0;
   }
 }
 
@@ -59,25 +59,25 @@ header .my-title {
   white-space: nowrap;
 }
 
-/* If the screen size is 601px wide or more*/
+/* If the screen size is 743px wide or more*/
 @media screen and (min-width: 743px) {
   header h1 {
     font-size: 100px;
   }
 
   header .my-title {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
 /* If the screen size is 742px wide or less*/
 @media screen and (max-width: 742px) {
-  header h1 p {
+  header h1 {
     font-size: 48px;
   }
 
   header .my-title {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -87,12 +87,12 @@ header .my-title {
     max-width: 60%;
   }
 
-  header h1 p {
+  header h1 {
     font-size: 48px;
   }
 
   header .my-title {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -136,4 +136,16 @@ header .my-title {
 #download-resume-button {
   margin-left: -10px;
   margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+#source-code-footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
