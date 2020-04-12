@@ -101,7 +101,7 @@ header .my-title {
   Platform buttons
 */
 
-.buttons-container {
+.main-container {
   background-color: transparent;
   padding-left: 8%;
 }
@@ -129,12 +129,12 @@ header .my-title {
   color: white;
 }
 
-.buttons-container .row {
+.main-container .row {
   display: flex;
   flex-direction: row;
 }
 
-#download-resume-button {
+.buttons-container {
   margin-left: -10px;
   margin-top: 20px;
 }
