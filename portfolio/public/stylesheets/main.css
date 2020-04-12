@@ -30,7 +30,7 @@ body {
 header {
   overflow: auto;
   position: absolute;
-  top: 18%; left: 5%; bottom: 0; right: 0;
+  top: 16%; left: 5%; bottom: 0; right: 0;
   max-width: 48%;
 
   text-align: left;
@@ -42,12 +42,6 @@ header {
   overflow-y: scroll;
 }
 
-/* If the screen size is 700px in height or less*/
-@media screen and (max-height: 700px) {
-  header {
-    top: 20%; left: 5%; bottom: 0; right: 0;
-  }
-}
 
 header h1 {
   font-family: 'Oswald', sans-serif;
@@ -59,6 +53,13 @@ header .my-title {
   white-space: nowrap;
 }
 
+/* If the screen size is 700px in height or less*/
+@media screen and (max-height: 700px) {
+  header {
+    top: 20%; left: 5%; bottom: 0; right: 0;
+  }
+}
+
 /* If the screen size is 743px wide or more*/
 @media screen and (min-width: 743px) {
   header h1 {
@@ -66,7 +67,7 @@ header .my-title {
   }
 
   header .my-title {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
