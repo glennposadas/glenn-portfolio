@@ -8,7 +8,7 @@ buttonDownloadResume.addEventListener('click', downloadResume)
 buttonViewProjects.addEventListener('click', viewProjects)
 
 function downloadResume() {
-  open('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/POSADAS_GLENN_VON_C_RESUME_MARCH_2020.pdf?alt=media&token=81637c4f-d9f7-4397-980a-531ec51e6203', '_blank')
+  open('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/POSADAS_GLENN_VON_C_RESUME_APR_2020.pdf?alt=media&token=b1ea4984-414a-4a06-9d67-553dd63ccac4', '_blank')
 
   const event = new Date()
   const dateISO = event.toISOString()
