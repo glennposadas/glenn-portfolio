@@ -20,5 +20,5 @@ function viewProjects() {
 
   const event = new Date()
   const dateISO = event.toISOString()
-  defaultAnalytics.logEvent('download_resume', { date: dateISO})
+  defaultAnalytics.logEvent('view_projects', { date: dateISO})
 }
