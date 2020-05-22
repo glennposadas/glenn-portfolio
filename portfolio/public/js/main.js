@@ -8,7 +8,9 @@ buttonDownloadResume.addEventListener('click', downloadResume)
 buttonViewProjects.addEventListener('click', viewProjects)
 
 function downloadResume() {
-  open('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/POSADAS_GLENN_VON_C_RESUME_APR_2020.pdf?alt=media&token=16137ab1-001e-4e49-88d2-2fea09549ef3', '_blank')
+  // Now we have an editable url :P No need to update this js file
+  // everytime we have updates to my resume.
+  open('rebrand.ly/glennposadas/resume')
 
   const event = new Date()
   const dateISO = event.toISOString()
