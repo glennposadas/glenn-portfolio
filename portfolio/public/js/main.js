@@ -10,7 +10,7 @@ buttonViewProjects.addEventListener('click', viewProjects)
 function downloadResume() {
   // Now we have an editable url :P No need to update this js file
   // everytime we have updates to my resume.
-  open('rebrand.ly/glennposadas/resume')
+  open('https://rebrand.ly/glennposadas/resume')
 
   const event = new Date()
   const dateISO = event.toISOString()
