@@ -12,10 +12,10 @@ function downloadResume() {
   // everytime we have updates to my resume.
   // As of 12/27/22, my rebrandly link got blocked after updating my resume file. I've requested to unblock it though.
   // For now, this is the direct link of my resume file.
-  open('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/POSADAS_GLENN_VON_C_2023_01-2024.pdf?alt=media&token=fda81e0d-3a9a-46ee-911f-005b528acd98``')
+  open('https://firebasestorage.googleapis.com/v0/b/glenn-portfolio.appspot.com/o/POSADAS_GLENN_VON_C_2023_01-2024.pdf?alt=media&token=fda81e0d-3a9a-46ee-911f-005b528acd98')
 
   const event = new Date()
-  const dateISO = event.toISOString()
+  const dateISO = event.toISOString()g
   defaultAnalytics.logEvent('download_resume', { date: dateISO})
 }
 
